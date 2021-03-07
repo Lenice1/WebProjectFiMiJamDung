@@ -109,18 +109,22 @@ ul {
 		.footer 
 		{
 			position: fixed;
-			left: 0;
+			left: ;
 			bottom: 0;
 			width: 100%;
 			background-color: #292930;
 			color: white;
 			text-align: center;
 		  }
+<<<<<<< HEAD
 	.footerImage 
 	{
 	width: 20px;
 	height: 20px;	
 	}
+=======
+
+>>>>>>> 6be19d9b20b94280e441755b75db69a1eb82e1c1
 	/* .footer
 	{
 		width:100%;
