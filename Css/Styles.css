@@ -94,7 +94,23 @@ ul {
 { 
     display:none;
 }
-    
+legend
+	{
+		font-size: 2em;
+		padding: 0 12px;
+		font-weight: 900;
+		background-color: #F9F9F9;
+	}
+
+fieldset 
+	{
+		margin: 12px 12px 18px;
+		border: 1px solid #004080;
+		color: #006699;
+	}
+td{
+	text-align: ;
+}
 
 
 	
