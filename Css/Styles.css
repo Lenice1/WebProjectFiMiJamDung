@@ -390,8 +390,8 @@ legend
 fieldset 
     {
         margin: 12px 12px 18px;
-        border: 1px solid #004080;
-        color: #006699;
+        border: 1px solid #000000;
+        color: #000000;
     }
 td{
     text-align: ;
@@ -479,8 +479,8 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: yellow;
+  color: rgb(0, 0, 0);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -489,7 +489,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(72, 255, 0);
 }
 
 /* Add a background color and some padding around the form */
