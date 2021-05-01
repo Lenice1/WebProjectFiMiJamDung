@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/Styles.css"> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FiMiJamDung - Reservations</title>
+    <audio controls autoplay>
+      <!-- <source src="sweet_jamaica.mp4">    -->
+      </audio>
+</head>
+<body >
+    
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="AboutUs.html" >About Us</a>
+        <a href="Memberships.html" >Memberships</a>
+        <a href="Donations.html">Donations</a>
+        <a href="ContactUs.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="dropbtn">Places To Be 
+                <i class="fa fa-caret-down"></i>
+              </button>
+            <div class="dropdown-content">
+              <a href="Events.html">Events</a>
+              <a href="ChillSpots.html">Chill Spots</a>
+              <a href="FoodHotspots.html">Food Hotspots</a>
+            </div>  
+        </div>
+        <div class="button">
+            <ul>
+               <a class="active" href="Reservations.html">BOOKNOW</a>
+            </ul>       
+          </div>
+    </div>   
+    <div  class="spacer"></div>
+<div class="topcontent">
+        <img src="images/blue_hole.jpg" alt="FiMiJamDung"  class="center" width= "800" height="400">
+</div>
+    <div class="container">   
+         
+    <div id ="table" class ="center">
+        <FIELDSET class="clientdetails">
+            <LEGEND> Contact Details </LEGEND>
+        <table>
+            <tr> 
+                <td>Title</td>
+                <td>
+                    <select>
+                        <option value="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                        <option value="Mr">Mr</option>
+						<option value="Ms">Ms</option>
+						<option value="Mrs">Mrs</option>
+						<option value="Miss">Miss</option>
+						<option value="Dr">Dr</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="FName" value="" title="First name is required" placeholder="Enter first name" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="LName" value="" title="Last name is required" placeholder="Enter last name" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td><input type="text" name="Email Address" value="" title="Email Address is required" placeholder="Enter Email Address" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" name="Phone Number" value="" title="Phone Number is required" placeholder="Enter Phone Number" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="Address" value="" title="Address is required" placeholder="Enter Address" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="City" value="" title="City is required" placeholder="Enter City" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <tr>
+                <td>Parish/State</td>
+                <td><input type="text" name="Parish/State" value="" title="Parish/State is required" placeholder="Enter Parish/State" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <tr>
+                <td>Zip Code</td>
+                <td><input type="text" name="Zipcode" value="" title="Zipcode is required" placeholder="Enter Zipcode" required> &nbsp;<strong style="color:#FF0000">*</strong></td>
+            </tr>
+            <TR> 
+                <TD>Country</TD>
+                <TD>
+                    <SELECT name="Country">
+                        <option value="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                        <option value="JA">Jamaica</option>
+                        <option value="USA">United States of America</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Other">Other</option>
+                    </SELECT>
+                </TD>
+                <TR> <!-- Gender -->
+                    <TD>Gender</TD>
+                    <TD>
+                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="male"> Male
+                    </TD>
+                </TR>
+                
+                <TR> 
+                    <TD>Preferred Language</TD>
+                    <TD>
+                        <input type="checkbox" name="language" value="EN"> English
+                        <input type="checkbox" name="language" value="FR"> French
+                        <input type="checkbox" name="language" value="ES"> Spanish
+                    </TD>
+                </TR>
+            </TR>
+        </table>
+    </fieldset>
+</br></br>
+    <FIELDSET>
+        <LEGEND> Room Request </LEGEND>
+        <div class="required">*&nbsp;&nbsp;Required Field</div>
+            <TABLE>
+                <TR> 
+                    <TD>Check In</TD>
+                    <TD><input type="date" class="arrive" name="Arrive" min="2019-08-03" max="2020-05-01" required> &nbsp;<strong style="color:#FF0000">*</strong></TD>
+                </TR>
+                
+                <TR>
+                    <TD>Check Out</TD>
+                    <TD><input type="date" class="depart" name="Depart" min="2019-08-06" max="2020-08-01" required> &nbsp;<strong style="color:#FF0000">*</strong></TD>
+                </TR>
+                
+                <TR> 
+                    <TD>Number of Adults</TD>
+                    <TD>
+                        <SELECT name="NumAdult" title="Number of adults required">
+                            <option value="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </SELECT>
+                    </TD>
+                </TR>
+                
+                <TR> 
+                    <TD>Number of Children</TD>
+                    <TD>
+                        <SELECT name="NumChild">
+                            <option value="blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </SELECT>
+                    </TD>
+                </TR>
+                
+                <TR> 
+                    <TD>Room Type</TD>
+                    <TD>
+                        <SELECT name="Room" title="Room type required">
+                            <option value="blank"></option>
+                            <option value="JnrSuite">Junior Suite</option>
+                            <option value="Suite">Suite</option>
+                            <option value="ConnSuite">Master Suite</option>
+                            <option value="honeymoon">Honeymoon Suite</option>
+                        </SELECT>
+                    </TD>
+                </TR>
+            </TABLE><BR>
+    </FIELDSET>	
+    
+  
+        <input type="submit"  value="Submit"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="reset"  value="Reset">
+    <BR>	
+</FORM>			
+    </div>
+
+
+    </div>
+</div>
+<div  class="spacer"></div>
+</div>
+
+  <div class="footer">
+    <p>
+        <img src="images/Social Media Icons.png" alt="Facebook"width= "50" height="50">
+    </p>
+    <h6>&copy; Copyright 2021 </h6>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>    
+  </body> 
+</html>
