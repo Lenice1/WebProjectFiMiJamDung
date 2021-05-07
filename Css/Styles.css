@@ -490,7 +490,7 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
+  cursor:progress;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -555,18 +555,20 @@ input[type=submit]:hover {
 /* Donations Page and Donation Form */
 
 .donation_text-container{
-  min-width:auto;
-  width:48%;
-  float:left;
-  height: 1000px;
+  min-width:320px;
+  /*align:center;
+  /*float:left;*/
+  /*height: 1000px;*/
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 18px;
 	margin-top: 30px;
 }
 .donation_text-box {
-  float:right;
-	width: 390px;
+  min-width:320px;
+  text-align: center;
+  /*float:right*/
+	max-width:720px;
 	height: 456px;
 	background-color:black;
 	border-top-left-radius: 6px;
@@ -577,21 +579,22 @@ input[type=submit]:hover {
   color: white;
 }
 .donation-container {
-  min-width:auto;
-  width:48%;
-  float:right;
-	height: 1000px;
+  min-width:320px;
+  /*align:center;
+  /*float:right;*/
+	height: 800px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 12px;
 	text-transform: uppercase;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .donation-box {
-  float:left;
-	width: 390px;
-	height: 456px;
+  min-width:320px;
+  /*float:left;*/
+	max-width: 720px;
+	height: 485px;
 	background-color: #F5F5F5;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
@@ -632,6 +635,7 @@ input[type=submit]:hover {
 }
 
 .donation-box .fields {
+  min-width:auto;
 	width: 59%;
 	display: block;
 	position: absolute;
@@ -640,6 +644,7 @@ input[type=submit]:hover {
 }
 
 .donation-box .fields input {
+  min-width:auto;
 	width: 90%;
 	font-size: 17px;
 	padding: 10px;
@@ -703,7 +708,7 @@ input[type=submit]:hover {
 }
 
 .donation-box .amount .button.selected {
-	background-color: black;
+	background-color: rgb(5, 114, 32);
 }
 
 .donation-box .amount .button input {
@@ -730,6 +735,7 @@ input[type=submit]:hover {
 
 .set-amount {
 	max-width: 96px;
+  touch-action: auto;
 }
 
 .switch {
@@ -803,7 +809,7 @@ input[type=submit]:hover {
 
 .checkboxes {
 	position: absolute;
-	top: 272px;
+	top: 294px;
 	left:36px;
 }
 
@@ -849,7 +855,7 @@ input[type=submit]:hover {
 }
 
 .confirm {
-	display:none;
+	display:-moz-popup;
 	position: absolute;
 	top: 335px;
 	left: 15px;
@@ -863,6 +869,8 @@ input[type=submit]:hover {
 }
 
 .confirm i {
+  touch-action: auto;
+  display:-moz-popup
 	font-weight: bold;
 	text-decoration: underline;
 	font-style: normal;
