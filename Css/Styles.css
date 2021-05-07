@@ -640,7 +640,7 @@ input[type=submit]:hover {
 	padding: 10px;
 	border-radius: 4px;
 	border-width: 0px;
-	color: #5C5C5C;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	margin-bottom: 10px;
@@ -648,22 +648,22 @@ input[type=submit]:hover {
 }
 
 ::-webkit-input-placeholder {
-   color: #cdcdcd;
+   color: black;
    font-size: 15px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #cdcdcd;
+   color: black;
    font-size: 15px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #cdcdcd;
+   color: black;
    font-size: 15px; 
 }
 
 :-ms-input-placeholder {  
-   color: #cdcdcd;
+   color: black;
    font-size: 15px;
 }
 
@@ -694,11 +694,11 @@ input[type=submit]:hover {
 }
 
 .donation-box .amount .button:hover {
-	background-color: #393939;
+	background-color: black;
 }
 
 .donation-box .amount .button.selected {
-	background-color: #393939;
+	background-color: black;
 }
 
 .donation-box .amount .button input {
