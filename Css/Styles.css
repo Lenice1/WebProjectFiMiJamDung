@@ -888,7 +888,7 @@ input[type=submit]:hover {
 
 #carouselCaptions {
 text-shadow: #1b1313; stroke: opacity 5px;;
-font-weight: bolder;
+font-weight: bolder; 
 font-style: italic;
 font-size: 10px;
 font-family: sans-serif;
